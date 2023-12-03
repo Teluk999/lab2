@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<head>
+  <!-- Add your meta tags, styles, and other head content here -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Weather Display</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Information</h1>
+    <form action="/" method="post" id="weather-form">
+      <input type="text" name="city" placeholder="Enter a city" required>
+      <button type="submit">Get Weather</button>
+    </form>
+    <div class="weather-info">
+      <h2 id="city">City Name</h2>
+      <div class="temperature">
+        <i class="fas i-thermometer-half"></i>
+        <p id="temperature">--°F</p>
+      </div>
+      <div class="description">
+        <i class="fas i-cloud"></i>
+        <p id="weather-description">--</p>
+      </div>
+    </div>
+  </div>
+  <script src="client.js" defer></script> <!-- Load the client-side JavaScript -->
+</body>
+</html>

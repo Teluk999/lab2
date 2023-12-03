@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8B4513; /* Brown theme color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #8B4513; /* Brown theme color */
+  font-size: 24px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #8B4513; /* Brown theme color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A0522D; /* Darker brown on hover */
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+#city {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.temperature, .description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-thermometer-half, .i-cloud {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #8B4513; /* Brown theme color */
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
