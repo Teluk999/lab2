@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
 
 // Server-side API requests can be handled here
 
-let port = process.env.PORT || 8002;
+let port = process.env.PORT || 3000;
 app.listen(port, function () {
-  console.log("Server running on port 8002");
+  console.log("Server running on port 3000");
 });
