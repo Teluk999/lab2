@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Main page
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/public/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 // Server-side API requests can be handled here
